@@ -1,4 +1,4 @@
-# Maintainer: {{ cookiecutter.full_name }} <{{ cookiecutter.aur_email }}>
+# Maintainer: {{ cookiecutter.full_name }} <{{ cookiecutter.email }}>
 pkgbase=python-{{ cookiecutter.repo_name }}-git
 pkgname=('python-{{ cookiecutter.repo_name }}-git' 'python2-{{ cookiecutter.repo_name }}-git')
 _pyname={{ cookiecutter.repo_name }}
