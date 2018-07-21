@@ -8,5 +8,5 @@
     "release_date": "2018-07-07",
     "year": "2018",
     "version": "0.1.0",
-    "entry_point": ["none", "cli"]
+    "entry_point": ["cli", "none"]
 }

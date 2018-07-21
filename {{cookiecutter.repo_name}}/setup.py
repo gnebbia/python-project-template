@@ -29,9 +29,9 @@ setup(name='{{ cookiecutter.repo_name }}',
                    ],
       packages=find_packages(exclude=('tests',)),
       include_package_data=True,
-      install_requires=[],{% if cookiecutter.entry_point == 'gui' or cookiecutter.entry_point == 'cli' %}
+      install_requires=[],{% if cookiecutter.entry_point == 'cli' %}
       entry_points={
-           {% if cookiecutter.entry_point == 'gui' %}'gui_scripts': [{% else %}'console_scripts': [{% endif %}
+           'console_scripts':
                '{{ cookiecutter.repo_name }} = {{ cookiecutter.repo_name }}.__main__:main',
            ]
       },{% endif %}
