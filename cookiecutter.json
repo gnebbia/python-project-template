@@ -1,13 +1,12 @@
 {
-    "full_name": "Chris Warrick",
-    "email": "chris@chriswarrick.com",
-    "aur_email": "aur@chriswarrick.com",
-    "github_username": "Kwpolska",
-    "project_name": "Python Project Template",
-    "repo_name": "pypt",
+    "full_name": "Giuseppe Nebbione",
+    "email": "nebbionegiuseppe@gmail.com",
+    "github_username": "gnebbia",
+    "project_name": "my_new_proj",
+    "repo_name": "reponame",
     "project_short_description": "INSERT TAGLINE HERE.™",
-    "release_date": "2017-01-01",
-    "year": "2017",
+    "release_date": "2018-07-07",
+    "year": "2018",
     "version": "0.1.0",
     "entry_point": ["none", "cli", "gui"]
 }
