@@ -1,8 +1,18 @@
 *.py[cod]
 __pycache__
 
+# Virtual Environment
+env/
+venv/
+
 # C extensions
 *.so
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
 
 # Packages
 *.egg
