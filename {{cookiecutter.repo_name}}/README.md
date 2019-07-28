@@ -1,30 +1,33 @@
-==============================================================================
-{{ cookiecutter.project_name }}.  {{ cookiecutter.project_short_description }}
-==============================================================================
-:Info: This is the README file for {{ cookiecutter.project_name }}.
-:Author: {{ cookiecutter.full_name }} <{{ cookiecutter.email }}>
-:Copyright: © {{ cookiecutter.year }}, {{ cookiecutter.full_name }}.
-:Date: {{ cookiecutter.release_date }}
-:Version: {{ cookiecutter.version }}
+# {{ cookiecutter.project_name }}.  {{ cookiecutter.project_short_description }}
 
-.. index: README
-.. image:: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.svg?branch=master
-   :target: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
+Info: This is the README file for {{ cookiecutter.project_name }}.
+Author: {{ cookiecutter.full_name }} <{{ cookiecutter.email }}>
+Copyright: © {{ cookiecutter.year }}, {{ cookiecutter.full_name }}.
+Date: {{ cookiecutter.release_date }}
+Version: {{ cookiecutter.version }}
 
-PURPOSE
--------
 
-INSTALLATION
-------------
+## PURPOSE
 
-USAGE
------
 
-NOTES
------
+## INSTALLATION
 
-COPYRIGHT
----------
+We can install {{ cookiecutter.project_name }} simply by doing:
+```sh
+git clone https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
+cd {{ cookiecutter.repo_name }}
+pip install -r requirements.txt
+python setup.py install
+```
+
+
+
+## USAGE
+
+## NOTES
+
+## COPYRIGHT
+
 Copyright © {{ cookiecutter.year }}, {{ cookiecutter.full_name }}.
 All rights reserved.
 

@@ -12,3 +12,10 @@ INSERT MODULE DESCRIPTION HERE.
 """
 
 __all__ = ()
+
+
+def main():
+    """Main routine of {{ cookiecutter.project_name }}."""
+    print("Hello, world!")
+    print("This is {{ cookiecutter.project_name }}.")
+    print("You should customize __main__.py to your liking (or delete it).")

@@ -46,3 +46,6 @@ nosetests.xml
 
 # 
 .DS_Store
+
+# vim session files
+*.vim
