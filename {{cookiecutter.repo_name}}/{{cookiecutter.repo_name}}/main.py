@@ -13,9 +13,15 @@ INSERT MODULE DESCRIPTION HERE.
 
 __all__ = ()
 
+import sys
+from {{ cookiecutter.project_name }}.cl_parser import parse_args
+
+
 
 def main():
     """Main routine of {{ cookiecutter.project_name }}."""
-    print("Hello, world!")
-    print("This is {{ cookiecutter.project_name }}.")
-    print("You should customize __main__.py to your liking (or delete it).")
+
+    print("Hello World")
+    args = parse_args(sys.argv[1:])
+    pass
+
