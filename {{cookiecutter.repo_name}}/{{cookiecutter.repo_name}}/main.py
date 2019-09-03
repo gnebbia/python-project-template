@@ -23,5 +23,4 @@ def main():
 
     print("Hello World")
     args = parse_args(sys.argv[1:])
-    pass
-
+    print(args)

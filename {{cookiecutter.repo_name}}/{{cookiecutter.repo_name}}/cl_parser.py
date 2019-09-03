@@ -32,7 +32,7 @@ def parse_args(args):
             simpler format
     """
     parser = argparse.ArgumentParser(prog='{{ cookiecutter.project_name }}',
-            description='{{ cookiecutter.project_short_description }}')
+                                     description='{{ cookiecutter.project_short_description }}')
 
     parser.add_argument(
         "url",
@@ -48,13 +48,13 @@ def parse_args(args):
         nargs='+',
         )
     parser.add_argument(
-        "-s","--concurrency",
+        "-s", "--concurrency",
         help="number of concurrent http requests",
         default=20,
         type=int,
         )
     parser.add_argument(
-        "-d","--data",
+        "-d", "--data",
         help="data passed in the body, when set, the request will be a POSt",
         action='append',
         default=[],
@@ -62,7 +62,7 @@ def parse_args(args):
         nargs='+',
         )
     parser.add_argument(
-        "-H","--header",
+        "-H", "--header",
         help="A header that will be passed within the requests",
         action='append',
         default=[],
