@@ -6,7 +6,6 @@
 
 
 import {{ cookiecutter.repo_name }}
-import {{ cookiecutter.repo_name }}.template
 
 
 def test_true():
@@ -50,4 +49,3 @@ def test_bitwise():
 def test_import():
     """Test imports."""
     {{ cookiecutter.repo_name }}
-    {{ cookiecutter.repo_name }}.template
