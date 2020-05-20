@@ -4,7 +4,7 @@
 # Copyright © {{ cookiecutter.year }}, {{ cookiecutter.full_name }}.
 # See /LICENSE for licensing information.
 
-
+import re
 import {{ cookiecutter.repo_name }}
 
 
@@ -44,6 +44,12 @@ def test_bitwise():
     assert 0b101 & 0b011 == 0b001
     assert 0b10 << 2 == 0b1000
     assert 0b1111 >> 2 == 0b11
+
+def test_strings():
+    """ Test strings matching with regex. """
+    value = "111.111.111.111"
+    assert re.match(r'\d+\.\d+\.\d+\.\d+', value)
+    assert not re.match(r'(^192\.168\.)|(^10\.)|(^172\.)', value)
 
 
 def test_import():
