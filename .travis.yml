@@ -1,21 +1,28 @@
+os: linux
 language: python
+
 sudo: false
 python:
- - "2.7"
- - "3.3"
- - "3.4"
- - "3.5"
- - "pypy"
+ - "3.8"
 
 install:
  - "pip install -r requirements.txt"
+ - "pip install ."
+ - "pip install setuptools"
+ - "pip install pyinstaller"
 
 script:
- - "cookiecutter --no-input ."
- - "cd pypt"
- - "py.test tests/"
+  - bash -c echo "Tests must go here"
 
-notifications:
-  email:
-    on_success: always
-    on_failure: always
+before_deploy:
+  - pyinstaller --onefile --paths kb/ kb/__main__.py -n kb
+
+deploy:
+  provider: releases
+  api_key: $RELEASE_TOKEN
+  file_glob: true
+  file: dist/*
+  skip_cleanup: true
+  draft: true
+  on:
+    tags: true
