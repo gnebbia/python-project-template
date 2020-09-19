@@ -36,9 +36,7 @@ deploy:
   api_key: $RELEASE_TOKEN
   file_glob: true
   file: 
-    - dist/kb_$TRAVIS_TAG_osx
-    - dist/kb_$TRAVIS_TAG_linux
-    - dist/kb_$TRAVIS_TAG_win*
+    - dist/kb_*
   skip_cleanup: true
   on:
     tags: true
