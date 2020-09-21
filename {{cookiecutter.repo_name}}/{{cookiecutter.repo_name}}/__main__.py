@@ -8,7 +8,7 @@
 Main routine of {{ cookiecutter.project_name }}.
 
 :Copyright: © {{ cookiecutter.year }}, {{ cookiecutter.full_name }}.
-:License: BSD (see /LICENSE).
+:License: GPLv3 (see /LICENSE).
 """
 from {{ cookiecutter.project_name }}.main import main
 

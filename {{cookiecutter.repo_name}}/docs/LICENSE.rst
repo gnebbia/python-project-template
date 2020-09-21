@@ -4,7 +4,7 @@ Appendix B. License for {{ cookiecutter.project_name }}
 :Info: This is the license for {{ cookiecutter.project_name }}.
 :Author: {{ cookiecutter.full_name }} <{{ cookiecutter.email }}>
 :Copyright: © {{ cookiecutter.year }}, {{ cookiecutter.full_name }}.
-:License: BSD (see /LICENSE or :doc:`Appendix B <LICENSE>`.)
+:License: GPLv3 (see /LICENSE or :doc:`Appendix B <LICENSE>`.)
 :Date: {{ cookiecutter.release_date }}
 :Version: {{ cookiecutter.version }}
 

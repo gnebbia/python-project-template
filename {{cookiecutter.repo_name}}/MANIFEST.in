@@ -1,5 +1,5 @@
 graft {{ cookiecutter.repo_name }}
 graft docs
 graft tests
-include README.rst AUTHORS LICENSE CHANGELOG.rst setup.py setup.cfg requirements.txt
+include README.md AUTHORS LICENSE CHANGELOG.md setup.py setup.cfg requirements.txt
 global-exclude __pycache__ *.pyc

@@ -8,7 +8,7 @@
 Command Line Parsing Module for {{ cookiecutter.project_name }}
 
 :Copyright: © {{ cookiecutter.year }}, {{ cookiecutter.full_name }}.
-:License: BSD (see /LICENSE).
+:License: GPLv3 (see /LICENSE).
 """
 
 __all__ = ()

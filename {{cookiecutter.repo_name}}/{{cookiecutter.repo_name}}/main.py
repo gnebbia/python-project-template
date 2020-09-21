@@ -8,7 +8,7 @@
 INSERT MODULE DESCRIPTION HERE.
 
 :Copyright: © {{ cookiecutter.year }}, {{ cookiecutter.full_name }}.
-:License: BSD (see /LICENSE).
+:License: GPLv3 (see /LICENSE).
 """
 
 __all__ = ()
@@ -23,4 +23,5 @@ def main():
 
     print("Hello World")
     args = parse_args(sys.argv[1:])
-    print(args)
+    cmd_params = vars(args)
+    print(cmd_params)
