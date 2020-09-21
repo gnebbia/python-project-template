@@ -19,7 +19,7 @@
 """
 {{ cookiecutter.project_short_description }}
 
-:Copyright: © {{ cookiecutter.year }}, {{ cookiecutter.full_name }}.
+:Copyright: {{ cookiecutter.year }}, {{ cookiecutter.full_name }}.
 :License: GPLv3 (see /LICENSE).
 """
 

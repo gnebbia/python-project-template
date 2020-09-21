@@ -5,8 +5,8 @@
     "project_name": "my_new_proj",
     "repo_name": "reponame",
     "project_short_description": "INSERT TAGLINE HERE.™",
-    "release_date": "2019-03-09",
-    "year": "2019",
+    "release_date": "2020-09-21",
+    "year": "2020",
     "version": "0.1.0",
     "entry_point": ["cli", "none"]
 }
