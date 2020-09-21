@@ -1,10 +1,12 @@
 #!/bin/bash
 
+
+RELEASE_VER=$(tr -d "v." <<<"$VERSION_TAG")
 if [ $TRAVIS_OS_NAME = 'osx' ]; then
-  pyinstaller --paths {{ cookiecutter.repo_name }}/ --onefile {{ cookiecutter.repo_name }}/__main__.py -n {{ cookiecutter.repo_name }}_${TRAVIS_TAG}_osx
+  pyinstaller --paths kb/ --onefile kb/__main__.py -n kb_${RELEASE_VER}_osx
 elif [ $TRAVIS_OS_NAME = 'windows' ]; then
-  pyinstaller --paths {{ cookiecutter.repo_name }}/ --onefile {{ cookiecutter.repo_name }}/__main__.py -n {{ cookiecutter.repo_name }}_${TRAVIS_TAG}_win
+  pyinstaller --paths kb/ --onefile kb/__main__.py -n kb_${RELEASE_VER}_win
 else
-  pyinstaller --paths {{ cookiecutter.repo_name }}/ --onefile {{ cookiecutter.repo_name }}/__main__.py -n {{ cookiecutter.repo_name }}_${TRAVIS_TAG}_linux
+  pyinstaller --paths kb/ --onefile kb/__main__.py -n kb_${RELEASE_VER}_linux
 fi
 
