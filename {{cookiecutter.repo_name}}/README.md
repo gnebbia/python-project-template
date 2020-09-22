@@ -1,5 +1,6 @@
 # {{ cookiecutter.project_name }}.  {{ cookiecutter.project_short_description }}
 
+[![Build Status](https://travis-ci.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.svg?branch=master)](https://travis-ci.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }})
 
 Author: {{ cookiecutter.full_name }} <{{ cookiecutter.email }}>
 
