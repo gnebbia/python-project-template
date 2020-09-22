@@ -33,8 +33,8 @@ python setup.py install
 
 ## DONATIONS
 
-I am an independent developer working on kb in my free time,
-if you like kb and would like to say thank you, buy me a beer!
+I am an independent developer working on {{ cookiecutter.repo_name }} in my free time,
+if you like {{ cookiecutter.repo_name }} and would like to say thank you, buy me a beer!
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=nebbionegiuseppe%40gmail.com&currency_code=EUR&source=url)
 
