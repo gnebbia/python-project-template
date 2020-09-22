@@ -9,3 +9,4 @@ fi
 $PYTHON -m pip install --upgrade pip setuptools
 $PYTHON -m pip install -r requirements-dev.txt
 $PYTHON -m pip install .
+$PYTHON -m pip install --upgrade pyinstaller
